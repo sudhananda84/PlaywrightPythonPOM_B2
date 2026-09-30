@@ -4,5 +4,7 @@ def test_create_candidate():
     print("Playwright Testing")
 
 def addition():
-    total = 10+20
+    total = 0
+    for i in range(1, 100):
+        total = total + i
     print(total)

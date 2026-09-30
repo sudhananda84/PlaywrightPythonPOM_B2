@@ -1,2 +1,0 @@
-def gitCommandsPractice():
-    print("hello")
