@@ -23,7 +23,7 @@ def test_example():
         page.get_by_text("-- Select --").click()
         page.get_by_role("textbox").nth(2).click()
 
-        page.get_by_role("textbox").nth(3).fill("Test@12345")
+        
         page.get_by_role("textbox").nth(4).click()
         page.get_by_role("textbox").nth(4).fill("Test@12345")
         page.get_by_role("button", name="Save").click()
